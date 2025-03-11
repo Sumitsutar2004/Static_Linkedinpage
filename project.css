@@ -1,0 +1,307 @@
+/* herer we define the structural representstion for Body part of html document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f2ed;
+}
+/* herer we define the structural representstion for header part of html document */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.linkedin-logo {
+    height: 40px;
+}
+
+.search-box {
+    margin-left: 10px;
+    padding: 10px;
+    width: 290px;
+    background-color: rgb(232, 223, 223);
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+    gap: 2rem;
+
+}
+.container {
+    display: flex;
+    margin: 20px;
+}
+/* herer we define the structural representstion for all three parts of our static linkdin page part of html document */
+.left-panel, .middle-panel, .right-panel {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+.left-panel {
+    flex: 1;
+}
+
+.middle-panel {
+    flex: 3;
+}   
+.right-panel {
+    flex: 1;
+}
+
+.profile-info {
+    text-align: center;
+    font-size: x-small;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 10px
+}
+.profile-pic{
+    width: 100px;
+    height: 100px ;
+}
+
+.post-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: var(#f3f2ef);
+}
+.post-input {
+    width: 280%;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.post-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.news-feed .post {
+    padding: 1px;
+    border-bottom: 1px solid #ddd;
+}
+
+.right-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-panel ul li {
+    margin-bottom: 5px;
+}
+.views{
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+}
+.premium{
+    font-size: 10px;
+}
+.left-bottom{
+    font-size;
+}
+.media {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    align-items: centre;
+    cursor: pointer;
+    gap: 1.5rem;
+    width:500px;
+    height: 100px;
+
+}
+.prof{
+    width: 65px;
+    height: 80px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.image-post {
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+.decription-post{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+/* here we define structure for linkdin post */
+
+.post-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    line-height: 1.2;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.post-content {
+    margin-bottom: 15px;
+}
+
+.post-content p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-actions button {
+    background-color: transparent;
+    border: none;
+    color: #0073b1;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post-actions button:hover {
+    text-decoration: underline;
+}
+
+
+
+/* here we define structure for right panel of our webpage it contains linkdin news and ads */
+
+.right-panel {
+    width: 300px;
+    margin: 20px;
+}
+
+.news-section, .advertisement-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.news-section h3, .advertisement-section h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.news-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news-section li {
+    margin-bottom: 10px;
+}
+
+.news-section a {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: bold;
+}
+
+.news-section a:hover {
+    text-decoration: underline;
+}
+
+.news-section p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.advertisement-section .ad-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advertisement-section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.advertisement-section button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.advertisement-section button:hover {
+    background-color: #005582;
+}
+/* thus we have successfully completed the major project using HTML and CSS */
